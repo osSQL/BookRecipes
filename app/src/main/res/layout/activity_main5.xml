@@ -7,15 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="440dp"
+        android:layout_height="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_6"
+        tools:layout_editor_absoluteY="663dp" />
+
     <Button
         android:id="@+id/button7"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#00FFFFFF"
         android:foreground="@drawable/_092564_about_mobile_ui_profile_ui_user_website_114033_1"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="332dp" />
+        tools:layout_editor_absoluteX="228dp" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -161,30 +171,42 @@
         android:id="@+id/button5"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#00FFFFFF"
         android:foreground="@drawable/recipe_svgrepo_com_1__1_"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="99dp" />
+        tools:layout_editor_absoluteX="118dp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="392dp"
+        android:layout_marginEnd="360dp"
         android:backgroundTint="#00FFFFFF"
         android:foreground="@drawable/_643769_building_home_house_main_menu_start_113416_1__2_"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="652dp" />
+        tools:layout_editor_absoluteY="679dp" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="56dp"
         android:backgroundTint="#00FFFFFF"
         android:foreground="@drawable/like_svgrepo_com_1"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="652dp" />
+        tools:layout_editor_absoluteY="679dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="612dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
